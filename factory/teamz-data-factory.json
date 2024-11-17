@@ -1,0 +1,9 @@
+{
+	"name": "teamz-data-factory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d6a3219e-e31e-479b-b336-26f9eefeceb6",
+		"tenantId": "c13ff1c3-5586-402b-b8c3-abdb27726da1"
+	}
+}
