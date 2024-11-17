@@ -3,7 +3,18 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_storage",
-			"type": "LinkedServiceReference"
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"storageAcc": {
+					"value": "@dataset().ds_storageAcc",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"ds_storageAcc": {
+				"type": "string"
+			}
 		},
 		"annotations": [],
 		"type": "DelimitedText",

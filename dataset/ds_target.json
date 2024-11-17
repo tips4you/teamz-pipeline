@@ -3,7 +3,18 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_storage",
-			"type": "LinkedServiceReference"
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"storageAcc": {
+					"value": "@dataset().ds_tar_srcAcc",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"ds_tar_srcAcc": {
+				"type": "string"
+			}
 		},
 		"annotations": [],
 		"type": "Parquet",
