@@ -1,0 +1,9 @@
+{
+	"name": "qateamzfactory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2550ad58-ba3d-49ac-8a3c-73588bfdf878",
+		"tenantId": "c13ff1c3-5586-402b-b8c3-abdb27726da1"
+	}
+}
